@@ -8,7 +8,7 @@ We will use this classification algorithm to build a model from historical data 
 We will use this classifier to build a model from a historical dataset of irises to predict their classification based on a featureset. Then we use the trained model to predict the class of a unknown iris. To getter a better understanding of interaction of the dimensions we will perform Principle Component Analysis. It can quickly indicate how easy or difficult the classification problem is. This is particularly relevant for high-dimensional datasets.
 
 ## classifier-evaluation
-explores methods for evaluation BEFORE and AFTER building a model. Evaluation of data and evaluation of model performance are key to any successful Machine Learning implementation.
+explores methods for evaluation BEFORE and AFTER building a model. Evaluation of data and evaluation of model performance are key to any successful Machine Learning implementation. We first analyze the dataset by Principle Component Analysis to see whether it needs Dimensional Reduction and then normalize the dataset for easier comparision.
 
 ## Loan Default Classifier
 We compare performance of Decision Tree with other classifiers - K-Nearest Neighbour, Logistic Regression and Support Vector Machines by measuring accuracy in each case to predict default on the given loan.
