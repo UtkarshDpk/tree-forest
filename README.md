@@ -9,3 +9,6 @@ We will use this classifier to build a model from a historical dataset of irises
 
 ## classifier-evaluation
 explores methods for evaluation BEFORE and AFTER building a model. Evaluation of data and evaluation of model performance are key to any successful Machine Learning implementation.
+
+## Loan Default Classifier
+We compare performance of Decision Tree with other classifiers - K-Nearest Neighbour, Logistic Regression and Support Vector Machines by measuring accuracy in each case to predict default on the given loan.
